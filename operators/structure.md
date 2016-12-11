@@ -48,7 +48,7 @@ def reverse: EdgePartition[ED, VD] = {
 ## 2 subgraph
 
 &emsp;&emsp;`subgraph`操作利用顶点和边的判断式（`predicates`），返回的图仅仅包含满足顶点判断式的顶点、满足边判断式的边以及满足顶点判断式的`triple`。`subgraph`操作可以用于很多场景，如获取
-感兴趣的顶点和边组成的图或者获取清除断开链接后的图。
+感兴趣的顶点和边组成的图或者获取清除断开连接后的图。
 
 ## 3 mask
 
